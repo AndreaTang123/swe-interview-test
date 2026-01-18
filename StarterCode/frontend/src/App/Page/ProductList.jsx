@@ -105,11 +105,12 @@ const ProductList = () => {
 
                 <CardContent>
                   <Typography variant="h6">{p.name}</Typography>
-                  <Typography variant="body2" sx={{ opacity: 0.8, mt: 0.5 }}>
-                    {p.description}
-                  </Typography>
+                  
                   <Typography variant="subtitle1" sx={{ mt: 1, fontWeight: 600 }}>
                     ${Number(p.price).toFixed(2)}
+                  </Typography>
+                  <Typography variant="body2" sx={{ opacity: 0.8, mt: 0.5 }}>
+                    {p.description}
                   </Typography>
                 </CardContent>
               </Card>
